@@ -6,7 +6,7 @@ CP usr /
 
 # enable and start mysql
 SYSRC mysql_enable=YES
-SYSRC mysql_args="--bind-address=127.0.0.1"
+SYSRC mysql_args="--bind-address=${JAIL_IP}"
 SERVICE mysql-server start
 
 # harden mysql
