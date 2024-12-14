@@ -2,7 +2,7 @@
 PKG mariadb1011-server
 
 # copy files
-#CP usr /
+CP usr /
 
 # enable and start mysql
 SYSRC mysql_enable=YES
