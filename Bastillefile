@@ -1,5 +1,7 @@
+ARG dbms_v=1011
+
 # install required packages
-PKG mariadb1011-server
+PKG mariadb${dbms_v}-server
 
 # copy files
 CP usr /
