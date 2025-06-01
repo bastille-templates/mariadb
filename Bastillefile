@@ -1,3 +1,6 @@
+CMD sed -e "s|quarterly|latest|g" -i.bak /etc/pkg/FreeBSD.conf
+CMD echo "${JAIL_IP} localhost local.domain" > /etc/hosts
+
 ARG dbms_v=1011
 
 # install required packages
