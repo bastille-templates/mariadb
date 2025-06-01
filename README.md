@@ -3,9 +3,9 @@ MariaDB is an open-source relational database management system that is a develo
 
 ## Now apply template to container
 ```sh
-bastille create laravel 14.1-RELEASE YourIP-Bastille
+bastille create dbms 14.1-RELEASE YourIP-Bastille
 bastille bootstrap https://github.com/bastille-templates/mariadb
-bastille template mariadb bastille-templates/mariadb
+bastille template dbms bastille-templates/mariadb
 ```
 
 ## License
